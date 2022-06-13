@@ -7,6 +7,9 @@ We want to have permanent /etc/nginx/conf.d/ dir in this deployment. You can use
 Added /etc/nginx/conf.d/ as volume mount so that it can share host files.
 As a security step made sure to have it as read-only, otherwise container will have rights over host.
 
+![Screenshot](img/bookboon1.png?raw=true "Task1")
+
+
 # Task 2 (cerebro-test.yaml)
 
 Fix problems occurring in this file. In the result we want to have a running pod.
@@ -27,6 +30,7 @@ After fixing this yaml deployment, create an svc file working with this deployme
 ## Task 3 - Done
 Created cerebro-service.yaml
 
+![Screenshot](img/bookboon2.png?raw=true "Port-forward")
 
 # Task 4
 
